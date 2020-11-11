@@ -1,10 +1,12 @@
 import "./App.css";
-import StoreContainer from "./components/StoreContainer";
+import TodosContainer from "./components/todos/TodosContainer";
+import UserInformationContainer from "./components/user/UserInformationContainer";
 
 function App() {
   return (
     <div className="App">
-      <StoreContainer />
+      <UserInformationContainer />
+      <TodosContainer />
     </div>
   );
 }
